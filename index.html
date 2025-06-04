@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Spiel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Memory-Spiel</h1>
+    <button id="reset-icon" title="Spiel zurücksetzen">🔄</button>
+  </div>
+
+  <div class="game-container">
+    <div id="gameBoard" class="game-board"></div>
+  </div>
+
+  <div id="victory-message">
+    <div class="victory-popup">
+      <h2>Glückwunsch! Du hast gewonnen!</h2>
+      <img src="img/siegerbild.jpg" alt="Sieg!" />
+      <button id="restart-button">Spiel neu starten</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
